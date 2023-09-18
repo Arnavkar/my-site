@@ -124,7 +124,7 @@ params:
     button:
       enable: true
       name: "Resume/CV"
-      url: "https://drive.google.com/file/d/1-hHtuOkcdLUwI0HAYVLTgl7JIwRpj1j5/view?usp=drive_link"
+      url: https://drive.google.com/file/d/1-hHtuOkcdLUwI0HAYVLTgl7JIwRpj1j5/view?usp=drive_link
       download: false
       newPage: true
     socialLinks:
