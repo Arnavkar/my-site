@@ -70,7 +70,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "dark" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -117,7 +117,7 @@ params:
     title: "Arnav Shirodkar."
     subtitle: "I'm a Software Developer"
     content: "Percussionist, Composer and Music Tech enthusiast"
-    image: "/images/me.jpeg"
+    image: "images/me.jpeg"
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -138,7 +138,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: /images/me2.jpeg
+    image: images/me2.jpeg
     content: |-
       I am a software developer from Singapore with a passion for exploring the intersection of music and technology. I also have a strong background in percussion performance and electronic music.
 
@@ -264,7 +264,7 @@ params:
     items:
       - title: Real-Time Music Transformer
         content: A symbolic music transformer model for real-time improvisation alongside a live performer. 
-        image: /images/robotImprovisor.png
+        image: images/robotImprovisor.png
         badges:
           - "Node.js"
           - "Typescript"
@@ -278,7 +278,7 @@ params:
 
       - title: TSP Path Visualizer
         content: Created an animated path visualizer for the TSP problem with greedy and genetic algorithm solutions
-        image: /images/tsp.png
+        image: images/tsp.png
         badges:
           - "Python"
           - "Matplotlib"
@@ -288,7 +288,7 @@ params:
 
       - title: Music Meter Classifier
         content: Designed an end-to-end musical meter classifier using CNNs that inferred rhythmic groupings from mel-spectrogram data in Tensorflow, achieving 73% accuracy
-        image: /images/spec.png
+        image: images/spec.png
         badges:
           - "Python"
           - "Tensorflow"
@@ -300,7 +300,7 @@ params:
 
       - title: Green Bean
         content: Prototyped a hybrid-native mobile application that provides users with sustainability information for grocery items leveraging barcode scanning libraries built by Scandit, encouraging sustainable grocery purchases.
-        image: /images/greenbean.png
+        image: images/greenbean.png
         badges:
           - "Vue"
           - "Javascript"
@@ -313,7 +313,7 @@ params:
 
       - title: BackBend
         content: Prototyped a mobile application for a hackathon that uses mobile device cameras to monitor and pings users with bad posture while they work.
-        image: /images/backpain.jpg
+        image: images/backpain.jpg
         badges:
           - "Tensorflow.js"
           - "PoseNet"
