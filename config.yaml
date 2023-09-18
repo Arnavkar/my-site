@@ -22,18 +22,18 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+# Menus:
+#   main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -98,7 +98,8 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "images/spec.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: false
     disableSearch: true
     # searchPlaceholder: "Search"
     menus:
@@ -137,7 +138,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: /images/me.jpeg
+    image: /images/me2.jpeg
     content: |-
       I am a software developer from Singapore with a passion for exploring the intersection of music and technology. I also have a strong background in percussion performance and electronic music.
 
@@ -188,7 +189,7 @@ params:
           - Deployed a new AWS pipeline in Morningstar’s Data-Lake Eventing framework (Athena, SES, SQS) using Docker, Jenkins, Typescript and Splunk-On-Call to detect and report critical test failures to data producers, improving failure response times by 40% for ~ 15 teams
         
       - job: "Software Engineer Intern"
-        company: "Soundbrenner Ltd"
+        company: "Soundbrenner"
         companyUrl: "https://www.soundbrenner.com/blog/"
         date: "Mar 2022 - Jun 2022"
         info:
@@ -200,7 +201,7 @@ params:
 
       - job: "Junior Developer"
         company: "Musiio"
-        companyUrl: "https://example.com"
+        companyUrl: "https://www.musiio.com/"
         date: "June 2017 - Nov 2019"
         info:
           enable: true
@@ -263,6 +264,7 @@ params:
     items:
       - title: Real-Time Music Transformer
         content: A symbolic music transformer model for real-time improvisation alongside a live performer. 
+        image: /images/robotImprovisor.png
         badges:
           - "Node.js"
           - "Typescript"
@@ -272,20 +274,21 @@ params:
 
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+            url: https://github.com/Arnavkar
 
       - title: TSP Path Visualizer
         content: Created an animated path visualizer for the TSP problem with greedy and genetic algorithm solutions
+        image: /images/tsp.png
         badges:
           - "Python"
           - "Matplotlib"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/Arnavkar/TSP_Project
 
       - title: Music Meter Classifier
         content: Designed an end-to-end musical meter classifier using CNNs that inferred rhythmic groupings from mel-spectrogram data in Tensorflow, achieving 73% accuracy
-        image: /images/projects/profile2.jpg
+        image: /images/spec.png
         badges:
           - "Python"
           - "Tensorflow"
@@ -293,11 +296,11 @@ params:
           - "Numpy"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/Arnavkar/Music_Meter_Classifier
 
       - title: Green Bean
         content: Prototyped a hybrid-native mobile application that provides users with sustainability information for grocery items leveraging barcode scanning libraries built by Scandit, encouraging sustainable grocery purchases.
-        image: /images/projects/profile2.jpg
+        image: /images/greenbean.png
         badges:
           - "Vue"
           - "Javascript"
@@ -306,18 +309,18 @@ params:
           - "Quasar"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/Arnavkar/Project_Headstart
 
       - title: BackBend
         content: Prototyped a mobile application for a hackathon that uses mobile device cameras to monitor and pings users with bad posture while they work.
-        image: /images/projects/profile2.jpg
+        image: /images/backpain.jpg
         badges:
           - "Tensorflow.js"
           - "PoseNet"
           - "Flutter"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/Arnavkar/BackBend_Posture-Detection
 
   #Contact
   contact:
@@ -333,22 +336,14 @@ params:
     #   messageCaption: "Enter your message here"
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/Arnavkar
+      linkedin: https://www.linkedin.com/in/arnav-shirodkar/
+      instagram: https://www.instagram.com/coding_percussionist/
 
   # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: false
+    disableFeaturedImage: true
 
   # Single pages like blog and post
   singlePages:
