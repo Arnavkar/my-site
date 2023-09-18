@@ -142,7 +142,7 @@ params:
     content: |-
       I am a software developer from Singapore with a passion for exploring the intersection of music and technology. I also have a strong background in percussion performance and electronic music.
 
-      I am currently working on my Senior Project, a symbolic music transformer model for real-time improvisation alongside a live performer. \n
+      I am currently working on my Senior Project, a symbolic music transformer model for real-time improvisation alongside a live performer.
       Built with MaxMSP, Node.js and Typescript for the performer interface, Python and Tensorflow/ Pytorch for the transformer model."	
       
     skills:
@@ -326,9 +326,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: Feel free to reach out to me for any opportunities or collaborations!
     email: arnavshirodkar@gmail.com
-    btnName: Contact me
+    btnName: Email me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
