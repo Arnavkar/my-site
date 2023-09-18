@@ -1,4 +1,4 @@
-baseURL: "https://arnavshirodkar.github.io/"
+baseURL: "public/"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
