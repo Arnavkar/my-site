@@ -1,6 +1,6 @@
 baseURL: "/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Arnav Shirodkar"
 theme: hugo-profile
 
 outputs:
@@ -143,7 +143,7 @@ params:
       I am a software developer from Singapore with a passion for exploring the intersection of music and technology. I also have a strong background in percussion performance and electronic music.
 
       I am currently working on my Senior Project, a symbolic music transformer model for real-time improvisation alongside a live performer.
-      Built with MaxMSP, Node.js and Typescript for the performer interface, Python and Tensorflow/ Pytorch for the transformer model."	
+      Built with MaxMSP, Node.js and Typescript for the performer interface, Python and Tensorflow/ Pytorch for the transformer model.
       
     skills:
       enable: true
@@ -177,6 +177,17 @@ params:
           - Designed and implemented a Python data scraper as well as an interactive web app with R to show trends in degree completions with ggplot2, handling upwards of 10 million data points across 20 categories using dplyr and meeting web accessibility standards.
           - Built an automated workflow with Bash and Python to seamlessly test and integrate data scraping, cleaning, processing and Shiny app deployment for data released in subsequent years
 
+      - job: "Tutor and Instructor"
+        company: 'Bard Prison Initiative'
+        companyUrl: "https://bpi.bard.edu/"
+        date: "Aug 2021 - present"
+        info:
+          enable: false
+        content: |
+          - Tutored Mathematics & Computer Science weekly for incarcerated students enrolled in the Bard Prison Initiative (BPI) at Eastern and Fishkill Correctional Facilities, creating custom assignments to help develop proficiency in Data Structures and Algorithms within the prison environment. 
+          - Served as an in-class tutor for over 50 students at Bard College in fundamental CS classes (Data Structures etc.), leading pre-exam review sessions as well as 1-on-1 tutoring for struggling students.
+          - Also served as a CS Instructor for CAMP 2023, an educational summer program for middle school students focused on Mathematics and Computer science in a creative intellectual environment
+
       - job: "Software Engineer Intern"
         company: "Morningstar"
         companyUrl: "https://www.morningstar.com/"
@@ -202,7 +213,7 @@ params:
       - job: "Junior Developer"
         company: "Musiio"
         companyUrl: "https://www.musiio.com/"
-        date: "June 2017 - Nov 2019"
+        date: "Jun 2017 - Nov 2019"
         info:
           enable: true
           content: Musiio has since been acquired by Soundcloud
